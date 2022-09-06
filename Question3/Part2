@@ -1,0 +1,9 @@
+create table product_price (
+    id bigint unsigned not null auto_increment,
+    product_name varchar(60) not null,
+    price decimal(10, 2) not null,
+    discount decimal(2, 2) default 0,
+    date_updated datetime not null,
+    who_updated varchar(30) not null,
+    primary key (id)
+);

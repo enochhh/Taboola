@@ -1,0 +1,8 @@
+create table change_log (
+    id bigint unsigned not null auto_increment,
+    old_price decimal(10, 2) not null,
+    new_price decimal(10, 2) not null,
+    date_changed datetime not null,
+    who_changed varchar(30) not null,
+    primary key (id)
+)

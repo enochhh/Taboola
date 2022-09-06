@@ -1,0 +1,5 @@
+Some suggestions for accepting other data types besides an int: 
+    1. Change the Node class to accept that specific data type (or generic object)
+    2. Change deserializeHelper in the TreeSerializer class to take the serialized string and return that to desired data type
+        - Would need more time to research and understand how to do this
+     

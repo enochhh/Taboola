@@ -1,0 +1,15 @@
+Please list the table creation scripts in proper MySQL syntax for these three tables and a
+query to join “product” table and “product price” table together to show the product
+name, category, price, and who/when it gets updated.
+
+SELECT 
+    p.product_name,
+    p.category,
+    p_price.price,
+    p_price.date_updated,
+    p_price.who_updated
+FROM
+    product p
+INNER JOIN product_price p_price USING(product_name);
+
+

@@ -1,0 +1,1 @@
+By definition, a tree cannot have a cycle. 
